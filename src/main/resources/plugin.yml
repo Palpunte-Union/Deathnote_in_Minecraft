@@ -1,0 +1,16 @@
+name: Deathnote
+version: ${project.version}
+main: com.github.eighty88.deathnote.Deathnote
+api-version: 1.16
+authors: [eight_y_88]
+description: Deathnote in Minecraft Plugin
+website: None
+
+commands:
+  deathnote:
+    description: deathnote command
+    permission: deathnote.everyone
+
+permissions:
+  deathnote.everyone:
+    default: true
